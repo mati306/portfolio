@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box; /* so we don't have to worry about padding affecting width */
+}
+
+body{
+  overflow: hidden;
+}
+
+img{
+  overflow: hidden;
+  height: 90vh;
+  width: auto;
+}
+
+.p-2{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.p-3{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.p-4{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 272px;
+}
+
+.no-padding{
+  padding:0;
+}
+
+.colorGrey{
+  background-color: #c9c9c9;
+}
+
+.colorBlue{
+  background-color: #aadeff;
+}
+
+.colorRed{
+  background-color: #ffaaaa;
+}
+
+.colorYellow{
+  background-color: #fffaaa;
+}
+
+.colorGreen{
+  background-color: #daedb8;
+}
+
+.colorblack{
+  background-color: black;
+  color: white;
+}
+
+/*arrow*/
+.arrow {
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: -90%;
+    left: 0; right: 0;
+    width: 40px;
+    height: 30px;
+    font-size: 40px;
+    line-height: 20px;
+    color: #d8d8d8;
+    -webkit-animation: bounce 4s infinite ease-in-out;
+}
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
+
+.bounce {
+  -webkit-animation: bounce 4s infinite ease-in-out;
+}
