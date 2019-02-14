@@ -81,3 +81,22 @@ img{
 .bounce {
   -webkit-animation: bounce 4s infinite ease-in-out;
 }
+
+/*on screens that are 576px or less*/
+@media screen and (max-width: 576px){
+  img{
+    display: none;
+  }
+
+  .max-width{
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 2/1){
+  img{
+    width: auto;
+    height: auto;
+  }
+}
