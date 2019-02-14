@@ -96,7 +96,6 @@ img{
 
 @media (max-aspect-ratio: 2/1){
   img{
-    width: auto;
-    height: auto;
+    display: none;
   }
 }
